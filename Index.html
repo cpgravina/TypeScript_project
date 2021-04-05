@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="Index.css" type="text/css">
+    <script src="Script.js"></script>
+</head>
+
+<body>
+
+<form action="./procesaFormulario.php">
+    <h1>Contactos</h1>
+
+    <fieldset>
+        <legend class="titulolegend">Datos Personales</legend>
+
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="30">
+        <br>
+
+        <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" maxlength="60">
+        <br>
+        
+        <input type="text" name="edad" id="edad" placeholder="Edad" maxlength="60">
+        <br>
+
+        <input type="text" name="dni" id="dni" placeholder="DNI" maxlength="60">
+        <br>
+
+        <div id="textoCumpleaños">
+            <label for="cumpleaños">Cumpleaños</label>
+            <input type="date" name="cumpleaños" id="cumpleaños">
+            <br>
+        </div>
+
+        <label for="colorFavorito">Color favorito</label>
+        <input type="color" name="colorFavorito" id="colorFavorito">
+        <br>
+
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="sexo" id="mujer">
+
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" id="hombre">
+        <br>  
+    </fieldset>
+
+    <fieldset>
+        <legend class="titulolegend">Dirección</legend>
+
+        <input type="text" name="calle" id="calle" placeholder="Calle" maxlength="30">
+        <br>
+
+        <input type="text" name="numeroCalle" id="numeroCalle" placeholder="Número" maxlength="60">
+        <br>
+        
+        <input type="text" name="piso" id="piso" placeholder="Piso" maxlength="60">
+        <br>
+
+        <input type="text" name="letra" id="letra" placeholder="Letra" maxlength="60">
+        <br>
+
+        <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Código postal" maxlength="60">
+        <br>
+
+        <input type="text" name="población" id="población" placeholder="Población" maxlength="60">
+        <br>
+
+        <input type="text" name="provincia" id="provincia" placeholder="Provincia" maxlength="60">
+        <br>
+</fieldset>
+
+<fieldset>
+        <legend class="titulolegend">Notas</legend>
+        <input type="text" name="notas" id="notas" placeholder="Notas" maxlength="60">
+        <br>
+        
+</fieldset>
+
+    <button type="submit" class="gris">Guardar contacto</button>
+    <button type="reset" class="gris">Borrar contacto</button>
+    <br>
+
+</form>
+</body>
+</html>
