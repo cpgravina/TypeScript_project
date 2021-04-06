@@ -3,6 +3,7 @@ body {
     font-family: Helvetica;
     color: black;
     text-align: center;
+    width: auto;
 }
 
 h1 {

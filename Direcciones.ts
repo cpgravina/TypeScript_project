@@ -25,11 +25,11 @@ export class Direcciones {
     // almacenar datos del codigo HTML
     let AñadirDireccion = document.getElementById("guardar").addEventListener("click", () => {
         // Obtener los valores añadido por el usario y guardarlos en un array
-        let nombreCalle = document.getElementById("calle");
-        let numeroPiso = document.getElementById("piso");
-        let letraPiso = document.getElementById("letra");
-        let codigoPostalUsuario = document.getElementById("codigoPostal");
-        let poblacionUsuario = document.getElementById("poblacion");
-        let provinciaUsuario = document.getElementById("provincia");
+        let calle = document.getElementById("calle");
+        let piso = document.getElementById("piso");
+        let letra = document.getElementById("letra");
+        let codigoPostal = document.getElementById("codigoPostal");
+        let poblacion = document.getElementById("poblacion");
+        let provincia = document.getElementById("provincia");
     });
 
