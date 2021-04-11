@@ -2,7 +2,7 @@ export class Direcciones {
     calle: string;
     numero: number;
     piso: number;
-    letra: string;
+    letra: string;  q
     codigoPostal: number;
     poblacion: string;
     provincia: string;

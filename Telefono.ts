@@ -1,4 +1,4 @@
-export class Direcciones {
+export class Telefono {
     tipoTelefono: string;
     numeroTelefono: number;
     

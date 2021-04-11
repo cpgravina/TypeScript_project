@@ -1,0 +1,16 @@
+{
+"compilerOptions": {
+  "module": "commonjs",
+  "noImplicitAny": true,
+  "removeComments": true,
+  "preserveConstEnums": true,
+  "sourceMap": true
+},
+"files": [
+  "main.ts",
+  "direcciones.ts",
+  "mail.ts",
+  "personas.ts",
+  "telefono.ts",
+]
+}

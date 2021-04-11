@@ -1,4 +1,8 @@
-export class Direcciones {
+import {Direcciones} from "./Direcciones";
+import {Mail} from "./Mail";
+import {Telefono} from "./Telefono";
+
+export class Persona {
     nombre: string;
     apellidos: string;
     edad: number;

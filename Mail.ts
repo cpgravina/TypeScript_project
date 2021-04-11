@@ -1,12 +1,12 @@
-export class Direcciones {
-    tipo: string;
-    direccion: string;
+export class Mail {
+    tipoCorreo: string;
+    direccionCorreo: string;
     
     // contructor
 
-    constructor(tipo: string, direccion: string) {
+    constructor(tipoCorreo: string, direccionCorreo: string) {
     this.tipoCorreo = tipoCorreo;
-    this.direccionCorreo = direccion;
+    this.direccionCorreo = direccionCorreo;
     }
 
 }
